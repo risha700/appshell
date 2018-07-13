@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons');
+@import'~vuetify/dist/vuetify.min.css';
+@import "theme.scss";
+
+
+
+
+//custom css
+.uk-background-success { background-color: $global-success-background; }
+.uk-background-warning { background-color: $global-warning-background; }
+.uk-background-danger { background-color: $global-danger-background; }
+
+
+.uk-button-success { background-color: $global-success-background; color: $global-inverse-color !important; }
+.uk-button-danger { background-color: $global-danger-background;color: $global-inverse-color; }
+.uk-button-warning { background-color: $global-warning-background; color: $global-inverse-color;}
+//.uk-input:focus > .uk-icon { color: red !important; }
+.hover-style:hover{
+  border: solid 1px  $global-primary-background;
+  cursor: pointer;
+  color:  $global-primary-background;
+}
+
+
+.straight-line:before{
+  background-color: #fff;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 58%;
+  opacity: 0.3;
+}
+
+.straight-line , .dashed{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.dashed.uk-active{
+  background: linear-gradient(to right top, #8575AA, #5B7BB5, #0081B5, #0084A7, #00858D,#8575AA) !important;
+  color: palevioletred;
+}
+
+.dashed > div{
+  background: rgba(3,27,78,.5)!important;
+}
+
+#bottom-curve{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+
+#top-curve{
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+@import "~uikit/src/scss/uikit-theme.scss";

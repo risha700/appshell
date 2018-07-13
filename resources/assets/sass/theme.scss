@@ -1,0 +1,54 @@
+
+// Breakpoints
+$xsmall-min: 0;
+$xsmall-max: 479px;
+
+$small-min: 480px;
+$small-max: 767px;
+$medium-min: 768px;
+$medium-max:  959px;
+$large-min: 960px;
+$large-max: 1219px;
+$xlarge-min: 1220px;
+
+
+
+//font-color
+$global-color:#000;
+$border-rounded-border-radius:20px;
+//$global-primary-background:linear-gradient(to left top, #042e6d, #002754, #021e3c, #091524, #05070a);
+//$form-focus-background: #bebebe;
+
+//$form-focus-border:red;
+//$form-focus-color:red;
+//$global-background: #a8a8a8;
+//$global-muted-background:                        #f8f8f8 !default;
+//$global-primary-background:                      #1e87f0 !default;
+//$global-secondary-background:                    #222 !default;
+//$global-success-background:                      #32d296 !default;
+//$global-warning-background:                      #faa05a !default;
+//$global-danger-background:                       #f0506e !default;
+
+
+
+
+
+
+//navbar
+
+$navbar-nav-item-color:#000;
+//$navbar-background:linear-gradient(to left top, #042e6d, #002754, #021e3c, #091524, #05070a);
+//$navbar-background: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F,#F9F871);
+$navbar-background: linear-gradient(to right top, #1A6073, #346A8C, #5A719F, #8575AA, #AE78AA,#D17EA0);
+//$navbar-background: linear-gradient(to right top, #8575AA, #5B7BB5, #0081B5, #0084A7, #00858D,#00836A);
+//$navbar-background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+//@import '~slick-carousel/slick/slick.css';
+
+
+//Theme
+
+@import "~uikit/src/scss/variables.scss";
+@import "~uikit/src/scss/mixins-theme.scss";
+@import "~uikit/src/scss/components/background.scss";
+// UIkit 3
